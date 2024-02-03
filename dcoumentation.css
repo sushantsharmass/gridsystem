@@ -67,10 +67,11 @@ body{
     .wrapper{
         grid-template-columns: repeat(1,1fr);
         .one{
+            grid-column: 1/2;
             grid-row: 1/2;
         }
         .four{
-            grid-column: 1/-1;
+            grid-column: 1/2;
             grid-row: 2/3;
         }
         .two{
